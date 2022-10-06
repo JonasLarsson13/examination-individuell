@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find a room @ bonz.ai</title>
+    <link rel="icon" type="image/png" href="images/bonz.ai-logo-color-symbol.png">
+    <link rel="stylesheet" href="style/styles.css" />
+    <script src="https://kit.fontawesome.com/8b8cd1171f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav id="navigation">
+        <img src="images/bonz.ai-logo-color-landscape.png" alt="bonz.ai" />
+        <ul id="menu">
+            <li><a href="/">Home</a></li>
+            <li><a href="/about.html">About</a></li>
+            <li><a href="/rooms.html" class="active">Rooms</a></li>
+        </ul>
+        <button id="toggle-menu" onClick="mobileMenu()">
+            <figure id="lineOne"></figure>
+            <figure id="lineTwo"></figure>
+            <figure id="lineThree"></figure>
+        </button>
+    </nav>
+    <header class="header roomsheader">
+        <article class="header-textbox roomsheader-textbox">
+            <h1>
+                Rooms
+            </h1>
+        </article>
+    </header>
+
+    <div class="grid-roomspage">
+        <article class="roomspage-booking">
+            <aside class="roomspage-booking_inputs">
+                <label>
+                    Check in Date:
+                </label>
+                <input type="date" />
+            </aside>
+
+            <aside class="roomspage-booking_inputs">
+                <label>
+                    Check out Date:
+                </label>
+                <input type="date" />
+            </aside>
+
+            <aside class="roomspage-booking_inputs">
+                <label for="roomtype">
+                    Room type:
+                </label>
+                <select id="roomtype">
+                    <option value="Single Room" selected>Single Room</option>
+                    <option value="Double Room">Double Room</option>
+                    <option value="King Room">King Room</option>
+                    <option value="Queen Room">Queen Room</option>
+                    <option value="Suite Room">Suite</option>
+                </select>
+            </aside>
+            
+            <button>
+                Search
+            </button>
+        </article>
+
+        <section class="roomspage-cards">
+            <article class="roomspage-card room1">
+                <figure>
+                    <img src="images/rooms/01-day.jpg" alt="room1day" />
+                </figure>
+                <h2>
+                    Honeymoon Suite
+                </h2>
+                <aside class="rommspage-offerings">
+                    <span><i class="fa-solid fa-wifi"></i>wifi</span>
+                    <span><i class="fa-solid fa-mug-saucer"></i>breakfast</span>
+                    <span><i class="fa-solid fa-square-parking"></i>parking</span>
+                    <span><i class="fa-solid fa-paw"></i>pets allowed</span>
+                </aside>
+                <span class="roomspage-price">
+                    <b>
+                        $210
+                    </b>
+                    <h3>
+                        Suite
+                    </h3>
+                </span>
+                <span class="roomspage-readmore flexbox">
+                    Click to read more!
+                </span>
+            </article>
+    
+            <article class="roomspage-card room2">
+                <figure>
+                    <img src="images/rooms/02-day.jpg" alt="room2day" />
+                </figure>
+                <h2>
+                    Nice room++
+                </h2>
+                <aside class="rommspage-offerings">
+                    <span><i class="fa-solid fa-wifi"></i>wifi</span>
+                    <span><i class="fa-solid fa-mug-saucer"></i>breakfast</span>
+                    <span><i class="fa-solid fa-square-parking"></i>parking</span>
+                </aside>
+                <span class="roomspage-price">
+                    <b>
+                        $150
+                    </b>
+                    <h3>
+                        King Room
+                    </h3>
+                </span>
+                <span class="roomspage-readmore flexbox">
+                    Click to read more!
+                </span>
+            </article>
+    
+            <article class="roomspage-card room3">
+                <figure>
+                    <img src="images/rooms/03-day.jpg" alt="room3day" />
+                </figure>
+                <h2>
+                    Fantastic Room+
+                </h2>
+                <aside class="rommspage-offerings">
+                    <span><i class="fa-solid fa-wifi"></i>wifi</span>
+                    <span><i class="fa-solid fa-mug-saucer"></i>breakfast</span>
+                    <span><i class="fa-solid fa-square-parking"></i>parking</span>
+                    <span><i class="fa-solid fa-paw"></i>pets allowed</span>
+                </aside>
+                <span class="roomspage-price">
+                    <b class="price-change">
+                        <span>$164</span>$133
+                    </b>
+                    <h3>
+                        Queen Room
+                    </h3>
+                </span>
+                <span class="roomspage-readmore flexbox">
+                    Click to read more!
+                </span>
+            </article>
+    
+            <article class="roomspage-card room4">
+                <figure>
+                    <img src="images/rooms/04-day.jpg" alt="room4day" />
+                </figure>
+                <h2>
+                    Sleep with comfort
+                </h2>
+                <aside class="rommspage-offerings">
+                    <span><i class="fa-solid fa-wifi"></i>wifi</span>
+                    <span><i class="fa-solid fa-mug-saucer"></i>breakfast</span>
+                </aside>
+                <span class="roomspage-price">
+                    <b>
+                        $128
+                    </b>
+                    <h3>
+                        Double Room
+                    </h3>
+                </span>
+                <span class="roomspage-readmore flexbox">
+                    Click to read more!
+                </span>
+            </article>
+    
+            <article class="roomspage-card room5">
+                <figure>
+                    <img src="images/rooms/05-day.jpg" alt="room5day" />
+                </figure>
+                <h2>
+                    100% relax
+                </h2>
+                <aside class="rommspage-offerings">
+                    <span><i class="fa-solid fa-wifi"></i>wifi</span>
+                    <span><i class="fa-solid fa-mug-saucer"></i>breakfast</span>
+                    <span><i class="fa-solid fa-square-parking"></i>parking</span>
+                </aside>
+                <span class="roomspage-price">
+                    <b>
+                        $174
+                    </b>
+                    <h3>
+                        King Room
+                    </h3>
+                </span>
+                <span class="roomspage-readmore flexbox">
+                    Click to read more!
+                </span>
+            </article>
+    
+            <article class="roomspage-card room6">
+                <figure>
+                    <img src="images/rooms/06-day.jpg" alt="room6day" />
+                </figure>
+                <h2>
+                    Go alone
+                </h2>
+                <aside class="rommspage-offerings">
+                    <span><i class="fa-solid fa-wifi"></i>wifi</span>
+                    <span><i class="fa-solid fa-mug-saucer"></i>breakfast</span>
+                </aside>
+                <span class="roomspage-price">
+                    <b>
+                        $99
+                    </b>
+                    <h3>
+                        Single Room
+                    </h3>
+                </span>
+                <span class="roomspage-readmore flexbox">
+                    Click to read more!
+                </span>
+            </article>
+        </section>
+    </div>
+
+    <footer class="footer">
+        <figure class="footer-location">
+            <h1>
+                +353 555 32 44
+            </h1>
+        </figure>
+        <article class="footer-links">
+            <ul>
+                <li>
+                    <a href="/">
+                        <figure></figure>
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="/about.html">
+                        <figure></figure>
+                        About
+                    </a>
+                </li>
+                <li>
+                    <a href="/rooms.html">
+                        <figure></figure>
+                        Rooms
+                    </a>
+                </li>
+            </ul>
+            <a href="/rooms.html">
+                <button>
+                    Book now
+                </button>
+            </a>
+        </article>
+        <figure class="footer-paymethods">
+            <i class="fa-brands fa-cc-visa"></i>
+            <i class="fa-brands fa-cc-mastercard"></i>
+            <i class="fa-brands fa-cc-amex"></i>
+            <i class="fa-solid fa-wallet"></i>
+        </figure>
+        <aside class="footer-copyright">
+            &copy; 2022 bonz.ai
+        </aside>
+        <figure class="footer-image"></figure>
+    </footer>
+    <script src="javascript/script.js"></script>
+</body>
+</html>
